@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first web page</title>
+    <style>
+        *{
+            /* margin: 0px 20px; */
+            font-family:"Montserrat", Arial;
+            box-sizing: border-box;
+            
+        }
+        body{
+            background-image:url(https://zoro.to/images/zoro-bg.jpg) ;
+            background-position: -20px 20px;
+            background-repeat: no-repeat;
+        }
+        img{
+            height: auto;
+            width: 40%;
+            position: absolute;
+            bottom: 150px;
+            right: 100px;
+        }
+        .navbar ul{
+            margin: 0px 100px;
+        }
+       .navbar li{
+            list-style: none;
+            float: left;
+            margin: 80px 20px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: greenyellow;
+        }
+        .search{
+            padding-top: 22%;
+            margin-left: 15px;
+        }
+        #search{
+            width: 40%;
+            height: 50px;
+            border-radius: 30px;
+            text-align: center;
+            font-size: larger;
+        }
+        h4{
+            border: 2px solid rgb(203, 234, 98) ;
+            border-bottom-left-radius:50px ;
+            border-bottom-right-radius: 50px;
+            margin: 0px 100px;
+            background-color: rgb(203, 234, 98);
+            position: absolute;
+            top: 80%;
+            width: 80%;
+            height:9% ;
+            text-align: center;
+            font-size: 25px;
+        }
+        h4 a{
+            text-decoration: none;
+            color: black;
+        }
+        .title{
+            color: white;
+            padding: 30px;
+            float: left;
+            padding-left: 10.5%; 
+        }
+        .container{
+            padding-top: 10px;
+        }
+        .container a{
+            text-decoration: none;
+            color: white;
+        }
+        .container a:hover{
+            color:  rgb(203, 234, 98);
+        }
+        .rohan{
+            padding: 22px 0px;
+        }
+        .logo{
+            width: 230px;
+            display: inline-block;
+            /* padding-bottom: 350px; */
+            padding: auto;
+            position: absolute;
+            left: 10%;
+            bottom: 2px;
+            top: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://zoro.to/images/zoro-min.png" alt="">
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://zoro.to/home">Home</a></li>
+                <li><a href="https://zoro.to/movie">Movies</a></li>
+                <li><a href="https://zoro.to/tv">TV Series</a></li>
+                <li><a href="https://zoro.to/most-popular">Most Popular</a></li>
+                <li><a href="https://zoro.to/top-airing">Top Airing</a></li>
+
+
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search anime...">
+                 </div>
+            </ul>
+        </nav>
+    </header>
+
+        <h4><a href="https://zoro.to/home">view full site</a></h4>
+        
+        <div class="container">   
+         <span class="title">Top Search:</span>
+
+            <div class="rohan">
+                <a href="https://zoro.to/search?keyword=Naruto" class="box">Naruto,</a>
+                <a href="https://zoro.to/search?keyword=Naruto%3A%20Shippuden"class="box">Naruto Shipudden,</a>
+                <a href="https://zoro.to/search?keyword=One%20Piece"class="box">One piece,<br></a>
+                <a href="https://zoro.to/search?keyword=Dragon+ball"class="box">Dragon ball Super,</a>
+                <a href="https://zoro.to/search?keyword=Black%20Clover"class="box">Black Clover,</a>
+                <a href="https://zoro.to/search?keyword=Attack%20on%20Titan"class="box">Attack on titan,<br></a>
+                <a href="https://zoro.to/search?keyword=My%20Hero%20Academia%20Season%206"class="box">My hero academia Season 6,
+                    
+                </a>
+                <a href="https://zoro.to/search?keyword=Demon%20Slayer%3A%20Kimetsu%20no%20Yaiba"class="box">Demon slayer:kimetsu no yaiba,<br></a>
+                <a href="https://zoro.to/search?keyword=Boruto%3A%20Naruto%20Next%20Generations"class="box">Boruto:Naruto next Generation</a>
+            </div>
+                
+         </div>
+
+           <div class="logo 01">
+             <a href="https://zoro.to/home"><img src="https://zoro.to/images/logo.png"
+                 class="logo" alt="">
+             </a>
+            </div>
+            
+</body>
+</html>
